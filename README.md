@@ -1,4 +1,4 @@
-# Gisement minier 3D modeling
+# Gisement minier 3D modeling with machine learning
 
 ## Deployment
 
