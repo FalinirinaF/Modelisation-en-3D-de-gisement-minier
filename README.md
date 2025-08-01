@@ -1,30 +1,28 @@
-# Gisement minier 3D modeling
+# Traffic Light AI System
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+An intelligent traffic light management system using Petri Nets and Q-Learning.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/falyandrianjafy3120-5741s-projects/v0-gisement-minier-3-d-modeling)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/mXPSY4J7zKK)
+## Features
 
-## Overview
+- **Petri Net Modeling**: Visual representation of traffic light states and transitions
+- **Q-Learning Optimization**: AI agent that learns to optimize traffic flow
+- **Manual Control**: Interactive mode for manual transition control
+- **Real-time Visualization**: Live traffic data and intersection display
+- **Performance Metrics**: Comprehensive analytics and optimization tracking
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Getting Started
 
-## Deployment
+\`\`\`bash
+npm run dev
+\`\`\`
 
-Your project is live at:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**[https://vercel.com/falyandrianjafy3120-5741s-projects/v0-gisement-minier-3-d-modeling](https://vercel.com/falyandrianjafy3120-5741s-projects/v0-gisement-minier-3-d-modeling)**
+## Technologies Used
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/mXPSY4J7zKK](https://v0.dev/chat/projects/mXPSY4J7zKK)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React Icons
+- Radix UI Components
