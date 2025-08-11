@@ -47,7 +47,7 @@ class MiningDataProcessor:
         # Calcul des coordonnées moyennes pour chaque segment
         df['X_mean'] = (df['Début_EUTM'] + df['Fin_EUTM']) / 2
         df['Y_mean'] = (df['Début_NUTM'] + df['Fin_NUTM']) / 2
-        df['Z_mean'] = (df['de (m)'] + df['à (m)'] ) / 2
+        df['Z_mean'] = (df['de (m)'] + df['à (m)']) / 2
         
         # Gestion de la lithologie
         if 'Lithologie' in df.columns:
